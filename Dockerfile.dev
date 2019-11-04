@@ -1,0 +1,13 @@
+FROM node:alpine
+
+WORKDIR '/app'
+
+COPY package.json .
+RUN npm install
+
+# Next command can be removed. Copy is not
+# needed when Compose is mapping /app
+# to . (volume mount)
+COPY . .
+
+CMD ["npm", "run", "start"]
