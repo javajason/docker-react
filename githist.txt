@@ -1,0 +1,98 @@
+  794  git init
+  795  git add .
+  796  git commit -m "Initial commit"
+  797  git remote add origin https://github.com/javajason/docker-react.git
+  798  git push origin master
+  810  git pwd
+  823  git add .
+  824  git commit -m "added travis file"
+  825  git push origin master
+  828  git commit -m "added travis deploy config"
+  829  git push orgin master
+  831  git add .
+  832  git commit -m "added travis deploy config"
+  833  git push orgin master
+  834  git push origin master
+  835  git add .
+  836  git commit -m "fixed travis deploy config"
+  837  git push origin master
+  838  git add .
+  839  git commit -m "added expose 80"
+  840  git push origin master
+  841  git checkout -b feature
+  842  git add .
+  843  git commit -m "changed app text for feature branch"
+  844  git push origin feature
+ 1092  git init
+ 1093  git add .
+ 1095  git rm --cached client
+ 1096  git rm --cached client -f
+ 1100  git init
+ 1101  git add .
+ 1102  git rm --cached client
+ 1103  git -f rm --cached client
+ 1104  git rm -f --cached client
+ 1105  git add .
+ 1106  git init
+ 1107  git add .
+ 1108  git comit -m "initial commit"
+ 1109  git commit -m "initial commit"
+ 1111  git remote add origin https://github.com/javajason/multi-docker.git
+ 1112  git remote -v
+ 1113  git push origin master
+ 1120  git status
+ 1121  git add .
+ 1122  git commit -m "changed travis yml"
+ 1123  git push origin master
+ 1124  git push origin master
+ 1125  git status
+ 1126  git add .
+ 1127  git commit -m "changed travis yml again"
+ 1128  git init
+ 1130  git add .
+ 1131  git add client/
+ 1132  git commit -m "changed travis yml again 2"
+ 1133  git commit -m "changed travis yml again 3"
+ 1135  git init
+ 1136  git add .
+ 1137  git commit -m "changed travis yml again 3"
+ 1138  git push origin master
+ 1139  git add .
+ 1140  git commit -m "changed travis yml 4"
+ 1141  git push origin master
+ 1142  git add .
+ 1143  git commit -m "changed travis yml 5"
+ 1144  git push origin master
+ 1145* git 
+ 1149  git add .
+ 1150  git commit -m "changed travis yml 6"
+ 1151  git init
+ 1152  git add .
+ 1153  git commit -m "changed travis yml 7"
+ 1154  git push origin master
+ 1157  git add .
+ 1158  git commit -m "changed travis yml 8"
+ 1159  git push origin master
+ 1161  git login
+ 1162  git init
+ 1163  git add .
+ 1164  git commit -m "changed travis yml 8"
+ 1165  git push origin master
+ 1166  history | grep "git push"
+ 1167  git status
+ 1168  git push origin master
+ 1169  history | grep git | tail -n 20
+ 1170  history | grep git | tail -n 40
+ 1171  git remove ./client
+ 1172  git rm ./client
+ 1173  git --help
+ 1174  git reset
+ 1175  git init
+ 1177  git add .
+ 1178  git status
+ 1179  git add .
+ 1180  git status
+ 1181  git commit -m "changed travis yml 9"
+ 1182  git push origin master
+ 1183  git remote -v
+ 1184  history | grep git > githist.txt
